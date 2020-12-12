@@ -20,5 +20,6 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, '微软雅黑';
 }
 </style>
