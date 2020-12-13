@@ -5,21 +5,21 @@
 </template>
 
 <script>
-import plan from './components/plan.vue'
-
+import plan from "./components/plan.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    plan
+    plan,
   }
-}
+};
 </script>
 
 <style lang="less">
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, '微软雅黑';
+  font-family: "Arial Narrow Bold", sans-serif,
+    "微软雅黑";
 }
 </style>
