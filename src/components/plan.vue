@@ -193,7 +193,7 @@ export default {
     flex: 1;
     padding: 40px 60px;
     overflow: auto;
-    background: rgba(0,0,0,.2);
+    // background: rgba(0,0,0,.2);
     p {
       padding: 20px 0;
       font-size: 70px;
