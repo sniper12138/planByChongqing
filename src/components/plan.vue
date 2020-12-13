@@ -165,7 +165,7 @@ export default {
 .plan {
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: #000 url(../assets/bg.jpg) no-repeat center top / cover;
   color: #fff;
   display: flex;
   flex-direction: column;
