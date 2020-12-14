@@ -95,6 +95,7 @@
 
 <script>
 import axios from "axios";
+axios.defaults.baseURL = '//lusev.impermanence.cn/';
 export default {
   name: "plan",
   data() {
@@ -113,7 +114,7 @@ export default {
     },
     initComment() {
       axios({
-        url: "http://lu.impermanence.cn:5555/plan/getcomment",
+        url: "/plan/getcomment",
         method: "get",
       })
         .then((res) => {
@@ -132,7 +133,7 @@ export default {
       }
 
       axios({
-        url: "http://lu.impermanence.cn:5555/plan/postComment",
+        url: "/plan/postComment",
         method: "post",
         headers: {
           "Content-Type": "application/json",
